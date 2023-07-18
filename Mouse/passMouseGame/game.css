@@ -1,0 +1,85 @@
+/* A cada vez que passa o mouse sobre a caixa, ela mudará de cor */
+/* Tentar fazer com que a cada vez que passe o mouse a cauxa diminua de pouco em pouco. */
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  background-color: #1f1f1f;
+  color: #fcfcfc;
+}
+
+h1 {
+  text-align: center;
+  border-color: purple;
+  border-width: 4px;
+  border-style: dashed;
+  margin: 8px;
+}
+
+#timer {
+  background-color: #f2ebeb;
+  width: 130px;
+  height: 35px;
+  border-radius: 999px;
+  margin-left: 10vw;
+}
+
+.backBox {
+  height: 100vh;
+  padding: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+.Box {
+  background-color: lightgreen;
+  width: 202px;
+  height: 202px;
+  min-width: 1px;
+  min-height: 1px;
+  display: flex;
+}
+
+@media (max-width: 405px) {
+  body {
+    height: 100vh;
+    background-color: #1f1f1f;
+    color: #fcfcfc;
+  }
+  
+  h1 {
+    text-align: center;
+    border-color: purple;
+    border-width: 4px;
+    border-style: dashed;
+    margin: 8px;
+  }
+  
+  #timer {
+    background-color: #f2ebeb;
+    width: 120px;
+    height: 35px;
+    border-radius: 999px;
+    margin-left: 10vw;
+  }
+  
+  .backBox {
+    height: 100vh;
+    padding: 20vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Box {
+    background-color: lightgreen;
+    width: 132px;
+    height: 132px;
+    min-width: 1px;
+    min-height: 1px;
+    display: flex;
+  }
+}
