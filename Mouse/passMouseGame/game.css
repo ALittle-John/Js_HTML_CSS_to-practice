@@ -20,12 +20,20 @@ h1 {
   margin: 8px;
 }
 
-#timer {
+#divtimer {
   background-color: #f2ebeb;
   width: 130px;
   height: 35px;
   border-radius: 999px;
   margin-left: 10vw;
+}
+
+.Inumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: black;
 }
 
 .backBox {
