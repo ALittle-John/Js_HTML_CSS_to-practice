@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } else {
         window.alert('Que pena... você precisa de mais agilidade!')
       }
-      location.reload(true)
+      location.reload()
     }
     // No if diz que se o seconds chegar a 0 irá parar a contagem.
   }
