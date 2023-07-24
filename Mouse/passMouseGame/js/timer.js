@@ -8,9 +8,16 @@ document.addEventListener('DOMContentLoaded', function() {
   function UpdadeCountdown() {
     seconds--;
     countdown.textContent = seconds
+    let tamanhoSalvoCSS2 = getComputedStyle(squadAgain)
 
-    if (seconds <= 0) {
+    if (seconds === -1) {
       clearInterval(TimeInterval)
+      if (tamanhoSalvoCSS2.width === '1px') {
+        window.alert('Parabéns! Você é Incrível!')
+      } else {
+        window.alert('Que pena... você precisa de mais agilidade!')
+      }
+      location.reload()
     }
     // No if diz que se o seconds chegar a 0 irá parar a contagem.
   }
