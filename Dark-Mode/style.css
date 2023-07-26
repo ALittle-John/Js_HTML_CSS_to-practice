@@ -1,0 +1,15 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Mode {
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.133);
+  width: 20px;
+}
