@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20%;
+  transition: background 0.5s linear, color 0.5s linear; 
+  /* transition já diz que vai haver uma transição em determinado local, sua duração e como, e tem como sim escolher mais de um local para acontecer. */
+}
+
+.container {
+  position: fixed;
+  
+}
+
+label {
+  background-color: rgb(15, 15, 17);
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  user-select: none;
+  transition: background 0.5s linear;
+}
+
+body.dark {
+  background-color: rgb(15, 15, 17);
+  color: #fff;
+  /* body.dark diz que: quando o modo dark for ativo, o body ficará assim. */
+}
+
+body.dark label{
+  background-color: #fff;
+}
+
+body.light {
+  background-color: #fff;
+  color: #000;
+}
+
+input {
+  visibility: hidden;
+}
