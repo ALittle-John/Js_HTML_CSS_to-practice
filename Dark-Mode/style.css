@@ -11,13 +11,12 @@ body {
   flex-direction: column;
   text-align: center;
   padding: 20%;
-  transition: background 0.5s linear, color 0.5s linear; 
+  transition: 0.5s linear, color 0.5s linear; 
   /* transition já diz que vai haver uma transição em determinado local, sua duração e como, e tem como sim escolher mais de um local para acontecer. */
 }
 
 .container {
   position: fixed;
-  
 }
 
 label {
@@ -27,7 +26,7 @@ label {
   display: inline-block;
   width: 50px;
   height: 50px;
-  transition: background 0.5s linear;
+  transition: 0.5s linear;
 }
 
 body.dark {
