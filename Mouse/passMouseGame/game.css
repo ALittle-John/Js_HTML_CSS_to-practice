@@ -10,6 +10,9 @@ body {
   height: 100vh;
   background-color: #1f1f1f;
   color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -25,7 +28,7 @@ h1 {
   width: 130px;
   height: 35px;
   border-radius: 999px;
-  margin-left: 10vw;
+  margin-top: 3%;
 }
 
 .Inumber {
@@ -39,8 +42,10 @@ h1 {
 .backBox {
   height: 100vh;
   padding: 20vh;
+  position: absolute;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  padding: 5%;
 }
 
 .Box {
@@ -49,45 +54,4 @@ h1 {
   height: 202px;
   min-width: 1px;
   min-height: 1px;
-  display: flex;
-}
-
-@media (max-width: 405px) {
-  body {
-    height: 100vh;
-    background-color: #1f1f1f;
-    color: #fcfcfc;
-  }
-  
-  h1 {
-    text-align: center;
-    border-color: purple;
-    border-width: 4px;
-    border-style: dashed;
-    margin: 8px;
-  }
-  
-  #timer {
-    background-color: #f2ebeb;
-    width: 120px;
-    height: 35px;
-    border-radius: 999px;
-    margin-left: 10vw;
-  }
-  
-  .backBox {
-    height: 100vh;
-    padding: 20vh;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .Box {
-    background-color: lightgreen;
-    width: 132px;
-    height: 132px;
-    min-width: 1px;
-    min-height: 1px;
-    display: flex;
-  }
 }
