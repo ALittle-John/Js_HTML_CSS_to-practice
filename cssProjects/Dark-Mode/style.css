@@ -12,7 +12,6 @@ body {
   text-align: center;
   padding: 20%;
   transition: 0.5s linear, color 0.5s linear; 
-  /* transition já diz que vai haver uma transição em determinado local, sua duração e como, e tem como sim escolher mais de um local para acontecer. */
 }
 
 .container {
@@ -32,7 +31,6 @@ label {
 body.dark {
   background-color: rgb(15, 15, 17);
   color: #fff;
-  /* body.dark diz que: quando o modo dark for ativo, o body ficará assim. */
 }
 
 body.dark label{
