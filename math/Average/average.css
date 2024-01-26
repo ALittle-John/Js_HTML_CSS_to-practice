@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#boxStudents {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+}
+
+.choosedNum {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    font-size: larger;
+    border-radius: 5px;
+    border-color: rgba(255, 217, 0, 0.479);
+    color: white;
+    border-width: 0.3px;
+    background-color: rgb(17, 17, 17);
+}
+.choosedNum:focus{
+    box-shadow: 20px -13px 4px rgba(255, 217, 0, 0.479);
+}
+.choosedNum:hover {
+    box-shadow: 20px -13px 4px rgba(255, 217, 0, 0.479);
+}
+
+#calc {
+    margin-top: 15px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border-color: rgba(255, 217, 0, 0.479);
+    border-width: 0.3px;
+    border-radius: 12px;
+    padding: 3px;
+}
+#calc:hover {
+    box-shadow: 15px 10px 4px rgba(255, 217, 0, 0.479);
+}
+
+#calcAnswer {
+    color: white;
+    margin: 10px;
+}
+
+#boxClass {
+    display: none;
+}
