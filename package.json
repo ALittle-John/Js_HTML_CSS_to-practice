@@ -1,0 +1,15 @@
+{
+  "name": "js_html_css_to-practice",
+  "version": "1.0.0",
+  "description": "A repo to pratice simple things.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^11.0.2"
+  }
+}
